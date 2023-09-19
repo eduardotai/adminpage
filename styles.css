@@ -1,0 +1,49 @@
+:root {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#mainContainer {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#sideBar {
+    width: 20%;
+    height: 100vh;
+    background-color: lightblue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#sideBar h1 {
+    margin-left: 2.9rem;
+}
+
+#principalNav {
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+    margin-top: 2rem;
+    margin-left: 3.1rem;
+}
+
+#helpNav {
+    flex-direction: column;
+    display: flex;
+    margin-left: 3.1rem;
+    margin-top: 30%;
+    gap: .4rem;
+}
+
