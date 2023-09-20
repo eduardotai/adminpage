@@ -28,9 +28,9 @@ body {
 
 
 #sideBar {
-    width: 23%;
+    width: 15%;
     height: 100vh;
-    background-color: lightblue;
+    background-color: #0096FF;
     color: white;
     display: flex;
     flex-direction: column;
@@ -57,14 +57,16 @@ body {
 }
 
 #content {
-    width: 77%;
+    width: 98%;
     position: absolute;
     top: 0;
-    left: 22%;
+    left: 15%;
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    height: 25vh;
+    height: 19.6vh;
+    box-shadow: inset;
+    box-shadow: 0 4px 2px -2px gray;
 }
 
 #userImage {
@@ -76,14 +78,17 @@ body {
 
 
 #userSearchInput {
+    position: absolute;
     border-radius: 12px;
-    width: 34rem;
-    background-color: lightgray;
+    width: 40REM;
+    background-color: #bcbcbc;
     border: 0;
     outline: none;
     margin-left: 1.7rem;
     height: 1.7rem;
     margin-top: .2rem;
+    left: 5rem;
+    color: white;
 }
 
 #bar1 {
@@ -94,6 +99,7 @@ body {
     position: relative;
     gap: 5rem;
     top: .6rem;
+    justify-content: space-between;
 }
 
 #bar1 h3 {
@@ -109,15 +115,6 @@ body {
     margin-left: 5%;
 }
 
-span {
-    display: flex;
-    width: 60%;
-    position: relative;
-    left: 12rem;
-    gap: 1.6rem;
-    height: .2rem;
-}
-
 span h3 {
     display: flex;
     margin-top: 1.3rem;
@@ -125,7 +122,21 @@ span h3 {
 
 #buttons {
     display: flex;
-    position: relative;
+    position: fixed;
+    width: 66%;
+    justify-content: flex-end;
+    top: 7.5rem;
+    gap: 3rem;
+}
+
+button {
+    border-radius: 20px;
+    color: white;
+    background-color: #0096FF;
+    padding: .6rem;
+    width: 8%;
+    border: none;
+
 }
 
 #welcomeUser {
@@ -140,3 +151,251 @@ p {
     position: relative;
     margin: .7em;
 }
+
+#userProfileOnTop {
+    display: flex;
+    width: 70%;
+    position: fixed;
+    justify-content: flex-end;
+    gap: 1.6rem;
+}
+
+#layoutContent {
+    position: absolute;
+    background-color: rgb(242, 243, 245);
+    width: 100%;
+    height: 80vh;
+    top: 20%;
+    left: 15%;
+}
+
+#childContent {
+    position: relative;
+    left: 7rem;
+    width: 65%;
+    display: grid;
+    height: 76vh;
+    top: 10%;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#projects {
+    display: flex;
+    position: absolute;
+    top: 1.3rem;
+    left: .7rem;
+}
+
+#childContent  > div {
+    display: flex;
+    border-left: 10px solid #FFD700;
+    width: 22rem;
+    height: 20vh;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px -5px #333, 5px 0 5px -5px #333;
+}
+
+#childContent h2 {
+    position: relative;
+    top: .9rem;
+    left: .9rem;
+    width: inherit;
+    height: 1rem;
+}
+
+#childContent p {
+    position: absolute;
+    font-size: 14px;
+    width: 100%;
+    top: 3rem;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: -43%;
+    color: #8c8c8c;
+}
+
+#divGrid {
+    width: 100%;
+} 
+
+#rightBarContent {
+    position: absolute;
+    width: 23%;
+    height: 77vh;
+    top: 1.7rem;
+    left: 70rem;
+    display: grid;
+    grid-template-rows: repeat(2, 1r);
+    grid-template-columns: repeat(1, 2r);
+}
+
+#rightBarContent > div {
+    background-color: white;
+    width: 65%;
+    height: 32vh;
+    max-height: 35vh;
+    margin: auto;
+    margin-top: 0;
+    border-radius: 8px;
+    box-shadow: 0 5px 5px -5px #333, 5px 0 5px -5px #333;
+
+}
+
+
+#rightBarContent  > h2 {
+    display: flex;
+    margin: auto;
+}
+
+#rightBar h4 {
+    margin-top: .7rem;
+    margin-left: .7rem;
+
+}
+
+#rightBar p {
+    margin-top: 1.8rem;
+    font-size: 12px;
+    color: #8c8c8c;
+    border-bottom: 0.5px solid #8c8c8c;
+    line-height: 1.3rem;
+}
+
+#userImageRightBar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 0;
+    margin-top: .4rem;
+    margin-left: .7rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#rightBarBottom > p {
+    position: relative;
+    margin: 0;
+    top: -2.4rem;
+    left: 4.5rem;
+    font-size: 14px;
+    color: #8f8e8e;
+}
+
+#rightBarBottom {
+    height: 100%;
+} 
+
+#bar2 p {
+    color: black;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+#childContent img { 
+    width: 26px;
+    height: 22px; 
+    margin-top: 10.5rem;
+    margin-right: .5rem;
+}
+
+#icon {
+    position: absolute;
+    margin-left: -2.3rem;
+    width: 22px;
+    height: 22px; 
+}
+
+#iconUser {
+    position: absolute;
+    margin-left: -2.3rem;
+    width: 22px;
+    height: 22px; 
+    margin-top: 1.7rem;
+}
+
+#iconMessage {
+    position: absolute;
+    margin-left: -2.3rem;
+    width: 22px;
+    height: 22px; 
+    margin-top: 3.5rem;
+}
+
+#iconHistory {
+    position: absolute;
+    margin-left: -9.1rem;
+    width: 22px;
+    height: 22px; 
+    margin-top: 1.7rem;
+}
+
+#iconTask {
+    position: absolute;
+    margin-left: -2.2rem;
+    width: 22px;
+    height: 22px; 
+    margin-top: 7rem;
+}
+
+#iconCommunity {
+    position: absolute;
+    margin-left: -2.2rem;
+    width: 22px;
+    height: 22px; 
+    margin-top: 9rem;
+}
+
+#iconSettings {
+    position: absolute;
+    margin-left: -2.2rem;
+    width: 22px;
+    height: 22px; 
+    margin-top: 0;
+}
+
+
+#iconSupport {
+    position: absolute;
+    margin-left: -2.3rem;
+    width: 22px;
+    height: 22px; 
+    margin-top: 1.7em;
+}
+
+#iconPrivacy {
+    position: absolute;
+    margin-left: -2.2rem;
+    width: 22px;
+    height: 22px; 
+    margin-top: 3.5rem;
+}
+
+#iconDashboard {
+    width: 33px;
+    height: 334px; 
+    position: absolute;
+    margin-left: .4em;
+    margin-top: -9rem;
+}
+
+#iconSearch {
+    position: absolute;
+    width: 25px;
+    height: 25px; 
+    margin-left: 4.4rem;
+    margin-top: .3rem;
+}
+
+#iconNotification {
+    width: 25px;
+    height: 25px;
+    margin-top: 1.5rem;
+}
+
+
+
+
+
+

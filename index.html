@@ -9,29 +9,28 @@
 <body>
     <div id="mainContainer">
         <div id="sideBar">
-            <h1>Dashboard</h1>
+            <img src="./regular/solid/medal.svg" alt="" id="iconDashboard"><h1>Dashboard</h1>
 
             <nav id="principalNav">
-                <h3>Home</h3>
-                <h3>Profile</h3>
-                <h3>Messages/h3>
-                <h3>Hiustory</h3>
-                <h3>Tasks</h3>
-                <h3>Communities</h3>
+                <img id="icon" src="./regular/solid/house.svg" alt=""> <h3>Home</h3>
+                <img id="iconUser" src="./regular/regular/user.svg" alt=""><h3>Profile</h3>
+                <img src="./regular/regular/message.svg" alt="" id="iconMessage"><h3>Messages/h3>
+                <img id="iconHistory" src="./regular/regular/clock.svg" alt=""> <h3>Hiustory</h3>
+                <img id="iconTask" src="./regular/regular/file.svg" alt=""><h3>Tasks</h3>
+                <img id="iconCommunity" src="./regular/solid/people-group.svg" alt=""><h3>Communities</h3>
             </nav>
 
             <nav id="helpNav">
-                <h3>Settings</h3>
-                <h3>Support</h3>
-                <h3>Privacy</h3>
+                <img src="./regular/solid/sun.svg" alt="" id="iconSettings"><h3>Settings</h3>
+                <img src="./regular/solid/question.svg" alt="" id="iconSupport"><h3>Support</h3>
+                <img src="./regular/solid/check-to-slot.svg" id="iconPrivacy" alt=""><h3>Privacy</h3>
             </nav>
         </div>
-    </div>
     <div id="content">
             <section id="bar1">
-                <input type="text" id="userSearchInput">
-                <span>
-                    <img id="userImage" src="https://github.com/eduardotai.png" alt="">
+                <img src="./regular/solid/magnifying-glass.svg" alt="" id="iconSearch"><input type="search" id="userSearchInput" placeholder="Search For Projects">
+                <span id="userProfileOnTop">
+                    <img src="./regular/solid/bell.svg" alt="" id="iconNotification"><img id="userImage" src="https://github.com/eduardotai.png" alt="">
                     <h3>TaiSalles</h3>
                 </span>
             </section>
@@ -50,20 +49,85 @@
             </section>
     </div>
 
-     <div id="MainCOntentContiner">
-        <section id="mainContent">
             <div id="layoutContent">
-                <h2>Your Projects</h2>
+                <h2 id="projects">Your Projects</h2>
                 <div id="childContent">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                    <div id="divGrid">
+                        <h2>Cool Project</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam felis eu nibh interdum pretium. Cras pharetra eros magna, id interdum elit accumsan sed. Fusce fringilla massa ac massa ornare condimentum.
+                        </p>
+                        <img src="./regular/star.svg" alt="">
+                    </div>
+                    <div id="divGrid">
+                        <h2>Less Project</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam felis eu nibh interdum pretium. Cras pharetra eros magna, id interdum elit accumsan sed. Fusce fringilla massa ac massa ornare condimentum.
+                        </p>
+                        <img src="./regular/star.svg" alt="">
+
+                    </div>
+                    <div id="divGrid">
+                       <h2>Easy Project</h2>
+                       <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam felis eu nibh interdum pretium. Cras pharetra eros magna, id interdum elit accumsan sed. Fusce fringilla massa ac massa ornare condimentum.
+                       </p>
+                       <img src="./regular/star.svg" alt="">
+
+                    </div>
+                    <div id="divGrid">
+                        <h2>Cool Project</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam felis eu nibh interdum pretium. Cras pharetra eros magna, id interdum elit accumsan sed. Fusce fringilla massa ac massa ornare condimentum.
+                        </p>
+                        <img src="./regular/star.svg" alt="">
+
+                    </div>
+                    <div id="divGrid">
+                        <h2>Hadr Project</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam felis eu nibh interdum pretium. Cras pharetra eros magna, id interdum elit accumsan sed. Fusce fringilla massa ac massa ornare condimentum.
+                        </p>
+                        <img src="./regular/star.svg" alt="">
+
+                    </div>
+                    <div id="divGrid">
+                        <h2>Style Project</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam felis eu nibh interdum pretium. Cras pharetra eros magna, id interdum elit accumsan sed. Fusce fringilla massa ac massa ornare condimentum.
+                        </p>
+                        <img src="./regular/star.svg" alt="">
+
+                    </div>
                 </div>
+
+            <div id="rightBarContent">
+                    <h2>Announcements</h2>
+                    <div id="rightBar">
+                        <h4>
+                            Site Maintenence
+                        </h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam felis eu nibh interdum</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam felis eu nibh interdum</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam felis eu nibh interdum</p>
+                    </div>
+                    <h2>Trendings</h2>
+                    <div id="rightBarBottom">
+                        <img id="userImageRightBar" src="https://github.com/lucaskohler.png" alt="">
+                        <p>Lucas Kohler</p>
+                        <p>Lucas Kohler</p>
+                        <img id="userImageRightBar" src="https://github.com/Diego3g.png" alt="">
+                          <p>Lucas Kohler</p>
+                          <p>Lucas Kohler</p>
+                        <img id="userImageRightBar" src="https://github.com/eduardotai.png" alt="">
+                          <p>Lucas Kohler</p>
+                        <img id="userImageRightBar" src="https://github.com/lucaskohler.png" alt="">
+                           <p>Lucas Kohler</p>
+                          <p>Lucas Kohler</p>
+                    </div>
             </div>
-        </section>
+        </div>
     </div>
+
 </body>
 </html>
