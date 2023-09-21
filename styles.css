@@ -30,7 +30,8 @@ body {
 #sideBar {
     width: 15%;
     height: 100vh;
-    background-color: #0096FF;
+    background-color: #2563eb;
+;
     color: white;
     display: flex;
     flex-direction: column;
@@ -132,7 +133,7 @@ span h3 {
 button {
     border-radius: 20px;
     color: white;
-    background-color: #0096FF;
+    background-color: #2563eb;
     padding: .6rem;
     width: 8%;
     border: none;
@@ -240,7 +241,6 @@ p {
     margin-top: 0;
     border-radius: 8px;
     box-shadow: 0 5px 5px -5px #333, 5px 0 5px -5px #333;
-
 }
 
 
